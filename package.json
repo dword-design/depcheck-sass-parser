@@ -1,0 +1,35 @@
+{
+  "name": "@dword-design/depcheck-sass-parser",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/dword-design/depcheck-sass-parser/issues"
+  },
+  "repository": "dword-design/depcheck-sass-parser",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "base build",
+    "start": "base start",
+    "test": "base test"
+  },
+  "dependencies": {
+    "@dword-design/functions": "^2.2.4",
+    "@dword-design/node-sass-importer": "^1.0.0",
+    "get-package-name": "^1.1.0",
+    "node-sass": "^4.13.0",
+    "require-package-name": "^2.0.1"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^3.7.0",
+    "child-process-promise": "^2.2.1",
+    "depcheck": "dword-design/depcheck#fork",
+    "output-files": "^1.1.10",
+    "with-local-tmp-dir": "^2.2.4"
+  },
+  "contributors": [],
+  "maintainers": []
+}
