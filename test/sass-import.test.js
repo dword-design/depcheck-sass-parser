@@ -16,13 +16,19 @@ export default () => withLocalTmpDir(__dirname, async () => {
     `,
     'node_modules/bar': {
       'index.scss': '',
-      'package.json': JSON.stringify({ main: 'index.scss' }),
+      'package.json': endent`
+        {
+          "main": "index.scss"
+        }
+      `,
     },
-    'package.json': JSON.stringify({
-      dependencies: {
-        'bar': '^1.0.0',
-      },
-    }),
+    'package.json': endent`
+      {
+        "dependencies": {
+          "bar": "^1.0.0"
+        }
+      }
+    `,
     'src/index.scss': '@import \'~bar\';',
   })
   await spawn('depcheck', ['--config', './depcheck.config.js', '.'])
