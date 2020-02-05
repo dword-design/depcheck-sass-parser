@@ -15,12 +15,14 @@ export default () => withLocalTmpDir(__dirname, async () => {
       }
     `,
     'node_modules/bar/dist/index.css': '',
-    'package.json': JSON.stringify({
-      dependencies: {
-        'bar': '^1.0.0',
-      },
-    }),
+    'package.json': endent`
+      {
+        "dependencies": {
+          "bar": "^1.0.0"
+        }
+      }
+    `,
     'src/index.scss': '@import \'~bar/dist/index.css\';',
   })
-  await spawn('depcheck', ['--config', 'depcheck.config.js', '.'], { stdio: 'inherit' })
+  await spawn('depcheck', ['--config', 'depcheck.config.js', '.'])
 })
