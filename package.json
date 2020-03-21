@@ -30,5 +30,8 @@
     "execa": "^4.0.0",
     "output-files": "^1.1.10",
     "with-local-tmp-dir": "^2.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

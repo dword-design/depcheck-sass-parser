@@ -5,7 +5,6 @@
 <!-- BADGES/ -->
 [![NPM version](https://img.shields.io/npm/v/@dword-design/depcheck-sass-parser.svg)](https://npmjs.org/package/@dword-design/depcheck-sass-parser)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
-
 [![Build status](https://img.shields.io/github/workflow/status/dword-design/depcheck-sass-parser/build)](https://github.com/dword-design/depcheck-sass-parser/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/depcheck-sass-parser)](https://coveralls.io/github/dword-design/depcheck-sass-parser)
 [![Dependency status](https://img.shields.io/david/dword-design/depcheck-sass-parser)](https://david-dm.org/dword-design/depcheck-sass-parser)
@@ -19,7 +18,7 @@
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-# Install
+## Install
 
 ```bash
 # NPM
@@ -31,7 +30,7 @@ $ yarn add @dword-design/depcheck-sass-parser
 <!-- /INSTALL -->
 
 <!-- LICENSE/ -->
-# License
+## License
 
 Unless stated otherwise all works are:
 
