@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/depcheck-sass-parser/compare/v1.0.4...v1.0.5) (2020-03-21)
+
+
+### Bug Fixes
+
+* use package importer ([d8f1cc1](https://github.com/dword-design/depcheck-sass-parser/commit/d8f1cc191c6160d08bce8424e3a1e9f14fa61908))
+
 ## [1.0.4](https://github.com/dword-design/depcheck-sass-parser/compare/v1.0.3...v1.0.4) (2020-03-21)
 
 
