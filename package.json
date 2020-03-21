@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "@dword-design/functions": "^2.2.4",
-    "@dword-design/node-sass-importer": "^1.0.0",
     "get-package-name": "^1.1.0",
     "node-sass": "^4.13.0",
+    "node-sass-tilde-importer": "^1.0.2",
     "require-package-name": "^2.0.1"
   },
   "devDependencies": {

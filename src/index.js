@@ -1,13 +1,12 @@
 import getPackageName from 'get-package-name'
 import requirePackageName from 'require-package-name'
-import importer from '@dword-design/node-sass-importer'
+import importer from 'node-sass-tilde-importer'
 import sass from 'node-sass'
 import { map, uniq, compact, replace } from '@dword-design/functions'
 import P from 'path'
 
 export default filePath => {
   const { stats } = sass.renderSync({ file: filePath, importer })
-
   return stats.includedFiles
     |> map(path => path[0] === '~'
       ? requirePackageName(path.substr(1))
