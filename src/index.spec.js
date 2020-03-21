@@ -16,10 +16,10 @@ export default {
         }
       `,
       'node_modules/bar': {
-        'index.scss': '',
+        'dist/index.scss': '',
         'package.json': endent`
           {
-            "main": "index.scss"
+            "main": "dist/index.scss"
           }
         `,
       },
