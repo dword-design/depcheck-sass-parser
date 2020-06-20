@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dword-design/depcheck-parser-sass/compare/v1.0.5...v1.1.0) (2020-06-20)
+
+
+### Features
+
+* rename to "@dword-design/depcheck-parser-sass" ([1ebaf48](https://github.com/dword-design/depcheck-parser-sass/commit/1ebaf488963f50dd3ead263ff3886e0f0a3e8387))
+
 ## [1.0.5](https://github.com/dword-design/depcheck-sass-parser/compare/v1.0.4...v1.0.5) (2020-03-21)
 
 
