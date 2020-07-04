@@ -7,7 +7,7 @@ export default {
   'sass import': () => withLocalTmpDir(async () => {
     await outputFiles({
       'depcheck.config.js': endent`
-        const sassParser = require('@dword-design/depcheck-sass-parser')
+        const sassParser = require('../src')
 
         module.exports = {
           parsers: {

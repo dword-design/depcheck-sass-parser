@@ -1,8 +1,8 @@
 {
-  "name": "@dword-design/depcheck-sass-parser",
-  "version": "1.0.5",
+  "name": "@dword-design/depcheck-parser-sass",
+  "version": "1.1.0",
   "description": "",
-  "repository": "dword-design/depcheck-sass-parser",
+  "repository": "dword-design/depcheck-parser-sass",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
