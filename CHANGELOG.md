@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.3...v1.1.4) (2020-12-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-sass to v5 ([263c2e5](https://github.com/dword-design/depcheck-parser-sass/commit/263c2e5fa145876f991594e92287c711755b09f2))
+
 ## [1.1.3](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.2...v1.1.3) (2020-12-10)
 
 
