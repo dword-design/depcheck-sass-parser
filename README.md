@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-[![NPM version](https://img.shields.io/npm/v/@dword-design/depcheck-parser-sass.svg)](https://npmjs.org/package/@dword-design/depcheck-parser-sass)
+[![npm version](https://img.shields.io/npm/v/@dword-design/depcheck-parser-sass.svg)](https://npmjs.org/package/@dword-design/depcheck-parser-sass)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
 [![Build status](https://github.com/dword-design/depcheck-parser-sass/workflows/build/badge.svg)](https://github.com/dword-design/depcheck-parser-sass/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/depcheck-parser-sass)](https://coveralls.io/github/dword-design/depcheck-parser-sass)
@@ -41,7 +41,7 @@
 ## Install
 
 ```bash
-# NPM
+# npm
 $ npm install @dword-design/depcheck-parser-sass
 
 # Yarn
