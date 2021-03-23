@@ -1,3 +1,11 @@
+## [1.1.9](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.8...v1.1.9) (2021-03-23)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#19](https://github.com/dword-design/depcheck-parser-sass/issues/19)) ([bfed4d8](https://github.com/dword-design/depcheck-parser-sass/commit/bfed4d80f14767dd4ab5c944905842e100bf6206))
+* update dependency @dword-design/functions to v3 ([#20](https://github.com/dword-design/depcheck-parser-sass/issues/20)) ([9b293d2](https://github.com/dword-design/depcheck-parser-sass/commit/9b293d271d7337e276c46b6389cc704d4fd4eda1))
+
 ## [1.1.8](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.7...v1.1.8) (2021-03-17)
 
 
