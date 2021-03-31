@@ -7,6 +7,7 @@ import requirePackageName from 'require-package-name'
 
 export default filePath => {
   const result = sass.renderSync({ file: filePath, importer: importer() })
+
   return (
     result.stats.includedFiles
     |> map(
