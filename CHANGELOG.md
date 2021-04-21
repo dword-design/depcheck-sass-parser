@@ -1,3 +1,11 @@
+## [1.1.12](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.11...v1.1.12) (2021-04-21)
+
+
+### Bug Fixes
+
+* update config files ([d9d2d0c](https://github.com/dword-design/depcheck-parser-sass/commit/d9d2d0cf362300c0db0c41531411d38a6fd0e2bf))
+* updated package.json[description] ([#30](https://github.com/dword-design/depcheck-parser-sass/issues/30)) ([7d1b8e2](https://github.com/dword-design/depcheck-parser-sass/commit/7d1b8e2d21c600c64bb4441d792de24fff74dd6d))
+
 ## [1.1.11](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.10...v1.1.11) (2021-04-12)
 
 
