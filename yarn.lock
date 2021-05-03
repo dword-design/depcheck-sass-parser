@@ -1141,10 +1141,10 @@
     micromatch "^4.0.2"
     std-env "^2.3.0"
 
-"@dword-design/base@^7.0.0":
-  version "7.14.4"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-7.14.4.tgz#1141b4c4ccca6f53a51e2aea5c12e06e88468bd8"
-  integrity sha512-GUDCfpYxgXflFo9klVWDDH2GG8/GGZWbWptBwuaaozJNpXckAmLgpS/wJDcYjkaLjPC7m00e3uT7krZPwGEBrA==
+"@dword-design/base@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-8.0.0.tgz#77f225ec73e66e09ced980fae143ccbad9949ae3"
+  integrity sha512-HtkOiT+ec50jNt1GjPg1oqaATC9RU98YfHXRJPAXarUtN7r/VK2abnJZl+rLy+2LjnGDQkkHqwn4+Spt6SQCZg==
   dependencies:
     "@babel/core" "^7.6.4"
     "@babel/register" "^7.6.2"
@@ -3862,9 +3862,9 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
     homedir-polyfill "^1.0.1"
 
 expect-mocha-image-snapshot@^1.0.0:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/expect-mocha-image-snapshot/-/expect-mocha-image-snapshot-1.0.12.tgz#a8a61717d2a473d1cfbfca700b7f9f4bd8012812"
-  integrity sha512-HBxOk8PRPQls78RAeJRCLLHSe940kSBu/wiI4jx7LaDm+cWQ1jVoHhBwI24fSD3zxkt6paQAY2ywHSFXPDJ9xw==
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/expect-mocha-image-snapshot/-/expect-mocha-image-snapshot-1.0.13.tgz#1de61d061e1d3c8ed75147f75edec1c59f4754b2"
+  integrity sha512-Id+cMqa89rPcDizOqM58f4/17SOB8uPNNqfkRawWUGrpKPF1T3KDDqsERSWfABCy5doYD0o3boPe8/VsLikacA==
   dependencies:
     jest-image-snapshot "^4.4.0"
     jest-snapshot "^26.6.2"
