@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.15...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#35](https://github.com/dword-design/depcheck-parser-sass/issues/35)) ([c26f19a](https://github.com/dword-design/depcheck-parser-sass/commit/c26f19aed15104a6e159dc6ac73e24e875d74e65))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+
 ## [1.1.15](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.14...v1.1.15) (2021-04-28)
 
 
