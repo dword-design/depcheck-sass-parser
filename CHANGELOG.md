@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency with-local-tmp-dir to v4 ([#38](https://github.com/dword-design/depcheck-parser-sass/issues/38)) ([ea62392](https://github.com/dword-design/depcheck-parser-sass/commit/ea62392cf1536d5a03af8c7f293951fcb427eeb7))
+
 # [2.0.0](https://github.com/dword-design/depcheck-parser-sass/compare/v1.1.15...v2.0.0) (2021-05-03)
 
 
