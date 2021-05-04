@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency get-package-name to v2 ([#11](https://github.com/dword-design/depcheck-parser-sass/issues/11)) ([6ce09d2](https://github.com/dword-design/depcheck-parser-sass/commit/6ce09d261c9a1f896f3ec2f3f2cff04eae9ee992))
+
 ## [2.0.1](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
