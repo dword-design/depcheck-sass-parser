@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.4...v2.0.5) (2021-05-09)
+
+
+### Bug Fixes
+
+* update dependency node-sass to v6 ([#39](https://github.com/dword-design/depcheck-parser-sass/issues/39)) ([2f0b921](https://github.com/dword-design/depcheck-parser-sass/commit/2f0b921e1be4975b190221206fd195df76ca816a))
+
 ## [2.0.4](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.3...v2.0.4) (2021-05-04)
 
 
