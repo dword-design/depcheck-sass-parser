@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.5...v2.0.6) (2021-05-10)
+
+
+### Bug Fixes
+
+* trigger release ([7aadddd](https://github.com/dword-design/depcheck-parser-sass/commit/7aadddd54e076c5e83bf044c739eb3076ff1fce7))
+
 ## [2.0.5](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.4...v2.0.5) (2021-05-09)
 
 
