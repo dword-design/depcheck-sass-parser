@@ -27,9 +27,9 @@
   },
   "devDependencies": {
     "@dword-design/base": "^8.0.0",
-    "depcheck": "dword-design/depcheck#fork",
-    "execa": "^5.0.0",
+    "depcheck": "^1.4.1",
     "output-files": "^2.0.0",
+    "stealthy-require": "^1.1.1",
     "with-local-tmp-dir": "^4.0.0"
   },
   "engines": {

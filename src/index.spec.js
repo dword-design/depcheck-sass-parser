@@ -1,38 +1,31 @@
-import { endent } from '@dword-design/functions'
-import execa from 'execa'
+import depcheck from 'depcheck'
 import outputFiles from 'output-files'
+import stealthyRequire from 'stealthy-require'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
 export default {
   'sass import': () =>
     withLocalTmpDir(async () => {
       await outputFiles({
-        'depcheck.config.js': endent`
-        const sassParser = require('../src')
-
-        module.exports = {
-          parsers: {
-            '*.scss': sassParser,
-          },
-        }
-      `,
         'node_modules/bar': {
           'dist/index.scss': '',
-          'package.json': endent`
-          {
-            "main": "dist/index.scss"
-          }
-        `,
+          'package.json': JSON.stringify({ main: 'dist/index.scss' }),
         },
-        'package.json': endent`
-        {
-          "dependencies": {
-            "bar": "^1.0.0"
-          }
-        }
-      `,
         'src/index.scss': "@import '~bar';",
       })
-      await execa.command('depcheck --config ./depcheck.config.js')
+
+      const self = stealthyRequire(require.cache, () => require('.'))
+
+      const result = await depcheck('.', {
+        package: {
+          dependencies: {
+            bar: '^1.0.0',
+          },
+        },
+        parsers: {
+          '**/*.scss': self,
+        },
+      })
+      expect(result.dependencies).toEqual([])
     }),
 }
