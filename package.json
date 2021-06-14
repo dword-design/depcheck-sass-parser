@@ -4,7 +4,7 @@
   "repository": "dword-design/depcheck-parser-sass",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
-  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -29,7 +29,7 @@
     "@dword-design/base": "^8.0.0",
     "depcheck": "^1.4.1",
     "output-files": "^2.0.0",
-    "stealthy-require": "^1.1.1",
+    "stealthy-require-no-leak": "^1.0.2",
     "with-local-tmp-dir": "^4.0.0"
   },
   "engines": {
