@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.8...v2.0.9) (2021-07-06)
+
+
+### Bug Fixes
+
+* update config files ([19a1a6f](https://github.com/dword-design/depcheck-parser-sass/commit/19a1a6fef3aeae34366897174c3f2d9f87e83119))
+
 ## [2.0.8](https://github.com/dword-design/depcheck-parser-sass/compare/v2.0.7...v2.0.8) (2021-06-14)
 
 
